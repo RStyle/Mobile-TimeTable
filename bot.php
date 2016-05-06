@@ -6,7 +6,7 @@ $data = json_decode($data);
 
 function chat($text)
 {
-$write = file_get_contents('https://api.telegram.org/bot' . TOKEN . '/sendmessage?text=' .$text.'&chat_id=230768418');
+$write = file_get_contents('https://api.telegram.org/bot' . TOKEN . '/sendmessage?text=' .$text.'&chat_id=' . CHATID);
 //print_r($write);
 }
 
